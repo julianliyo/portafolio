@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 10px;
+    height: 30px;
+}
+
+.fondo {
+    background-image: linear-gradient(#000000, #895949);
+    width: 1050px;
+}
+
+.imagen {
+    width: 400px;
+    margin: 30px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.About{
+    background-image: linear-gradient(gray, rgb(163, 163, 163));
+    padding: 5px;
+    color: white;
+}
+
+.caja1{
+    background-image: linear-gradient(white, rgb(255, 205, 193));
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    width: 550px;
+    height: 275px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+.listas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    font-size: 10px;
+}
+
+.listas1{
+    background-image: linear-gradient(white,rgb(221, 198, 202));
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 10px;
+    height: 600px;
+}
+.listas2{
+    background-image: linear-gradient(white,rgb(221, 198, 202));
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 10px;
+    height: 600px;
+}
+.listas3{
+    background-image: linear-gradient(white,rgb(221, 198, 202));
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 10px;
+    height: 600px;
+}
+
+.listas p {
+    background-image: linear-gradient(gray,rgb(175, 175, 175));
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.listas h2 {
+    margin: 5px;
+}
+
+.imagenes{
+    width: 325px;
+    margin: 1;
+}
+
+.barra h3{
+    background-image: linear-gradient(gray, rgb(179, 179, 179));
+    font-size: 20px;
+}
+
+.barra img {
+        display: inline-block;
+        width: 50px;
+        height: 48px;
+        margin: 0;
+        padding: 2px;
+}
+.barra{
+    margin-top: 52px;
+}
+
+.barra2 h3{
+    background-image: linear-gradient(gray, rgb(179, 179, 179));
+    font-size: 20px;
+}
+
+.barra2 img {
+    display: inline-block;
+    width: 50px;
+    height: 48px;
+    margin: 0;
+    padding: 2px;
+}
+
+.barra2 {
+    margin-top: 35px;
+}
+
+.barra3 h3{
+    background-image: linear-gradient(gray, rgb(179, 179, 179));
+    font-size: 20px;
+}
+
+.barra3 img {
+    display: inline-block;
+    width: 50px;
+    height: 48px;
+    margin: 0;
+    padding: 2px;
+}
+
+.boton {
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 130px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1090px;
+
+}
+
+.FooterImagenes a img{
+    width: 25px;
+    height: 25px;
+}
